@@ -331,9 +331,9 @@
     figure {overflow: hidden;}
     @media screen and (min-width: 1025px){
 
-        figure:hover figcaption {transform: translate(0px, -220px);}
-        figure:nth-child(3):hover figcaption {transform: translate(0px, -100px);}
-        figure:nth-child(4):hover figcaption, figure:nth-child(6):hover figcaption{transform: translate(0px, -120px);}
+        figure:hover figcaption {transform: translate(0px, -388px);}
+        figure:nth-child(3):hover figcaption {transform: translate(0px, -560px);}
+        figure:nth-child(4):hover figcaption, figure:nth-child(6):hover figcaption{transform: translate(0px, -295px);}
         figure:hover figcaption{bottom: 0px;}
         figcaption{
             position: absolute;
@@ -341,10 +341,9 @@
             }
         .girl figcaption {
             height: 600px; /*270px*/
-            background-color: rgba(0,0,0,.7);
+            background-color: #111111;
             position: relative;
             transition: 0.5s;
-            padding-right:15px;
         }
     }
 
@@ -360,14 +359,11 @@
     }
 
     figcaption p {
-        font-size: 14px;
+        width:360px;
+        font-size: 10px;
         color: #ffffff;
         padding: 5px 0px 0px 20px;
-        text-overflow: ellipsis; /*생략기호나오게*/
-        overflow: hidden; /*영역을 벗어난 글자 생략*/
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
+
     }
 
     figcaption span {
@@ -526,3 +522,4 @@
         display: none;
         position: fixed; right: 5%; bottom: 30px;
     }
+
