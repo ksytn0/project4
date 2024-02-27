@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/*tablet해상도 서식*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+/*헤더서식*/
+/*1.로고*/
+header h1{top: 27px; left: 3%;}
+header h1 img{width: 70%;}
+/*2.내비게이션*/
+.gnb > ul > li{margin: 0px 10px;}
+.gnb > ul > li > a{font-size: 0.8rem;}
+
+/*메인서식*/
+/*1. 메인배너*/
+.visual{height: 560px;}
+.visual div img{
+    height: 560px;
+    object-fit: cover;
+}
+.visual .s_btn{top: 83%; left: 4%;}
+.visual > div > span{
+    font-size: 2rem;
+    top: 230px;
+}
+
+/*2. 뉴스컨텐츠*/
+.news_con{
+    width: 90%;
+    margin: 90px auto;
+}
+.news_con article{
+    height: 350px;
+}
+.news_con article > h2{
+    font-size: 2rem;
+}
+.news_con article > h2 > span{
+    font-size: 1rem;
+}
+
+
+/*3. 탭컨텐츠*/
+.tab_con{background: #F2F2F2;}
+.tab_con article{
+    width: 90%; height: 695px;
+    background-size: 250px;
+    padding: 80px 0px;
+}
+.tab_con_wrap{padding-top: 40px;}
+.tab_con_wrap > li{margin: 0px 3px;}
+.tab_con_wrap > li > a{font-size: 1rem;}
+.tab_con_wrap > li > div{width: 60%; padding-top: 30px;}
+.tab_con h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.tab_con h3{font-size: 1.8rem;}
+.tab_con p{font-size: 0.9rem;}
+.con03 > img{width: 100%;}
+
+
+/*4. 인기제품*/
+.best_product{padding: 80px 0px;}
+.best_product article{width: 90%;}
+.best_product ul > li{padding-top: 20px;}
+.best_product ul > li > img{padding-left: 30px; width: 60%;}
+.best_product ul > li > h3{
+    font-size: 1.1rem;
+    height: 40px;
+}
+
+/*5. 이벤트*/
+.event{width: 90%; padding: 80px 0px;}
+.es_wrap{width: 300%;}
+.es_wrap > div img{display: block; width: 100%;}
+.lrbtn{top: -120px;}
+.lrbtn i.fa-angle-left{left: -22px;}
+.lrbtn i.fa-angle-right{right: -22px;}
+
+
+/*6. 스토리 갤러리*/
+.gallery article{
+    width:90%;
+    padding:60px 0px;
+}
+.gallery article > h2{
+    font-size:2rem;
+    padding-bottom:20px;
+}
+.girl {
+    width: 100%;
+    padding: 0px;
+}
+figcaption h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f36f21;
+    padding: 10px 0px 5px 20px;
+}
+
+figure{
+    height: 300px; margin-bottom: 10px;
+    position: relative;
+}
+figure figcaption{position: absolute; bottom: 0px;}
+
+.girl figcaption{
+    width: 100%; height: 50px;
+    background-color: rgba(0,0,0,.8);
+}
+
+
+
+figcaption p {
+    font-size: 10px;
+    color: #ffffff;
+    padding: 5px 0px 0px 20px;
+}
+
+figcaption span {
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.girl img {width: 100%;}
+
+
+
+
+    /*푸터*/
+    .f_inner{padding-left: 5%;}
+    .f_inner > nav{
+        width: 90%;
+        margin: 0px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .f_inner > nav dl{width: 50%; padding-bottom: 10px;}
+    footer .sns{padding-top: 30px;}
+    address{display: block;}
+    address{
+        text-align: center;
+        height: 100px;
+        padding: 10px 0px;
+    }
+    address span{
+        width: 100%;
+        padding: 0px;
+    }
+    address p{line-height: 50px;}
+    address span img{
+        width: 140px;
+        padding-top: 10px;
+    }
+}
